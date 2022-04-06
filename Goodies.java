@@ -24,18 +24,7 @@ public class Goodies {
 		 }
 		 System.out.println("Number Of The Employees:");
 		  int m=in.nextInt();
-		  
-		  int temp1=m;
-		  int temp=arr.length-m;
-		  
-		  // Here the goodies that are selected for distribution are 
-		  System.out.println("\nHere the goodies that are selected for distribution are:");
-		  for(int i=temp+1;i>=0;i--) {
-			  if(temp1!=0) {
-				  System.out.println(arr[i]);
-				  temp1--;
-			  }
-		  }
+		 
 		  // initially answer= maximum int value stored		  
 		  int answer=1000000000;
 		  for(int i=0;i<=n-m;i++) {
